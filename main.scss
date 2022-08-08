@@ -1,3 +1,84 @@
+// mehriddin code start
+@import"stayl.css";
+*{
+    margin: 0;
+    font-family: 'Montserrat';
+}
+.ms-1{
+    width: 100%;
+    height: 15vh;
+    background-color: #1A1A1A;
+    color: #7C7C7C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        padding: 20px 40px;
+        margin: 1px;
+        border-bottom:1px solid #7C7C7C;
+    }
+    a{
+        text-decoration: none;
+        color: #7C7C7C;
+    }
+    #ms-all2{
+        color: #FFFBFB;
+    }
+    #ms-all1{
+        border-bottom: 1px solid #FFFBFB;
+    }
+}
+.ms-2{
+    display: flex;
+    flex-wrap: wrap;
+    img{
+        width: 33.33%;
+    }
+    .ms-2-1{
+        width: 33.33%;
+        background-image: url(./image/Rectangle\ 17\ \(1\).png);
+        color: #FFF;
+        text-align: center;
+        font-size: 13px;
+        a{
+            text-decoration: none;
+            color: #FFF;
+        }
+        h5{
+            opacity: 0.7;
+            margin-top: 80px;
+        }
+        h1{
+            padding: 20px;
+        }
+        p{
+            opacity: 0.7;
+        }
+        .ms-more{
+            width: 50%;
+            padding: 7px 0;
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+            h3{
+                opacity: 0.7;
+                padding: 0 10px;
+                margin-top: 20px;
+                border-left: 3px solid #FFF;
+                border-right: 3px solid #FFF;
+            }
+        }
+    }
+}
+.ms-down{
+    width: 100%;
+    height: 7vh;
+    padding-top: 2.5vh;
+    color: #FFF;
+    text-align: center;
+    background-color: #1A1A1A;
+}
+// mehriddin codde end
 *{
     margin: 0;
 }

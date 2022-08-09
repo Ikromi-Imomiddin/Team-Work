@@ -330,10 +330,69 @@ form .sumbit {
   display: flex;
   align-items: center;
   text-align: center;
-<<<<<<< HEAD
+
+  
+.ikskills p{
+  margin-left: 524px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  display: flex;
+  letter-spacing: 0.18538em;
+  }
+  .ikskill{
+      margin-left: 533px;
+      display: flex;
+      margin-top: 82px;
+      text-align: center;
+  }
+  .ikskill img{
+      
+      width: 100px;
+      height: 100px;
+  }
+  .ik2{
+      margin-right: 170px;
+      margin-left: 136px;
+  }
+  .ik4{
+      margin-left: 170px;
+  }
+  .Ik{
+      padding-top: 60px;
+      background: radial-gradient(50% 50% at 50% 50%, rgba(26, 21, 21, 0) 0%, rgba(1, 1, 1, 0.16) 100%), #FFFFFF;
+  mix-blend-mode: normal;
+  padding-bottom: 160px;
+  }
+  .Ik1{
+      width: 100%;
+      height: 321px;
+      background-image: url(images/image\ 12.png);
+      background-repeat: no-repeat;
+  }
+  .ik8{
+   border: 8px solid black;
+  width: 482px;
+  height: 74px;
+  left: 719px;
+  top: 123px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  text-align: center;
   letter-spacing: 0.43538em;
   
-  
+  position: absolute;
+  width: 482px;
+  height: 107px;
+  left: 719px;
+  top: 577px;
   color: #000000;
   }
   .ik8 p{
@@ -347,8 +406,26 @@ form .sumbit {
       border: 1px solid transparent;
      border-radius: 50%;
   }
-=======
-  letter-spacing: 0.35538em;
+  @media (max-width: 382px;){
+      .Ik{
+          background: radial-gradient(50% 50% at 50% 50%, rgba(26, 21, 21, 0) 0%, rgba(1, 1, 1, 0.16) 100%), #FFFFFF;
+      }
+      .ikskills p{
+  position: absolute;
+  width: 250px;
+  height: 74px;
+  left: 66px;
+  top: 1391px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.18538em;
+  
   color: #000000;
-}/*# sourceMappingURL=main.css.map */
->>>>>>> 9904f3d02624d9face10d80679e1e324e39ed1e3
+      }
+  }
